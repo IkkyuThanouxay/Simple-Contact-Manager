@@ -31,4 +31,5 @@ gcc -o SimpleContactManager main.c
 - The program utilizes a structure "Contact_Data" to hold the contact details (name and phone number).
 - Memory for these structures is dynamically allocated and resized as needed using malloc, calloc, and realloc functions.
 - After the contacts are displayed, the memory allocated is freed up using the free function to prevent memory leaks.
-# Note: Please ensure your system has the gcc compiler installed before attempting to compile the program. If not, you may need to install it or use another compatible C compiler.
+# Note: 
+  Please ensure your system has the gcc compiler installed before attempting to compile the program. If not, you may need to install it or use another compatible C compiler.
